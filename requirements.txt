@@ -1,0 +1,5 @@
+streamlit==1.17.0
+PIL==9.4.0
+numpy==1.24.1
+matplotlib==3.6.3
+scipy==1.10.0
