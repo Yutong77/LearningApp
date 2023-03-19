@@ -144,8 +144,8 @@ expander1.markdown(r'''
 expander1.latex(r'''
                 i(t)=i_{ac}(t)+i_{dc}(t)\\\
                 i_{ac}(t)=\frac{\sqrt{2}V_{n}}{\sqrt{3}}[(\frac{1}{X_{d}^{"}}-\frac{1}{X_{d}^{'}})e^{-t/T_d^{"}}
-                +(\frac{1}{X_{d}^{'}}-\frac{1}{X_{d}})e^{-t/T_d^{'}}+\frac{1}{X_{d}}]sin(\omega t+\alpha-\theta)\\\
-                i_{dc}(t)=\frac{\sqrt{2}V_{n}}{\sqrt{3}X_{d}^{"}}sin(\alpha-\theta)e^{-t/T_A}
+                +(\frac{1}{X_{d}^{'}}-\frac{1}{X_{d}})e^{-t/T_d^{'}}+\frac{1}{X_{d}}]\sin(\omega t+\alpha-\theta)\\\
+                i_{dc}(t)=-\frac{\sqrt{2}V_{n}}{\sqrt{3}X_{d}^{"}}\sin(\alpha-\theta)e^{-t/T_A}
                 ''')
 expander1.markdown(r'''
                   where $X_{d}^{"} =$ direct axis subtransient reactance\
@@ -175,5 +175,5 @@ st.markdown(r'''
             therefore the symmetric component decomposition method is introduced.
             '''
             r'''
-            💡You can use sidebar on the left side to select *Symmetrical components* page.
+            💡You can use sidebar on the left side to select *Symmetrical Components* page.
             ''')
