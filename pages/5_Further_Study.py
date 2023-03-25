@@ -15,6 +15,6 @@ st.markdown(r'''
 st.markdown("🕮 **References**")
 st.markdown(r'''
             [1]	J. Duncan Glover, M. S. Sarma, T. J. Overbye. 
-            Power System Analysis and Design, edition 7th., Cengage Learning, Stamford, June 2022.
+            Power System Analysis and Design, edition 7th., Cengage Learning, Stamford, June 2022.\\
             [2]	https://link.springer.com/book/10.1007/978-3-662-44547-1
             ''')
